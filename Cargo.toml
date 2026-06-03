@@ -1,0 +1,10 @@
+[package]
+name = "terminal-forecast-harness"
+version = "0.1.0"
+edition = "2021"
+description = "Standalone terminal command forecasting library wrapping ergodic-transport-rs for Markov chain prediction, anomaly detection, and resource forecasting."
+
+[dependencies]
+ergodic-transport = { git = "https://github.com/SuperInstance/ergodic-transport-rs" }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
